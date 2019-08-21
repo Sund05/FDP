@@ -1,0 +1,129 @@
+Sudan43:~ alumno$ echo "Hola mundo"
+
+Hola mundo
+
+Sudan43:~ alumno$ cd practica2
+
+Sudan43:practica2 alumno$ mkdir algebra
+
+Sudan43:practica2 alumno$ cd algebra
+
+Sudan43:algebra alumno$ touch archivo.txt
+
+Sudan43:algebra alumno$ cd archivo.txt 
+
+-bash: cd: archivo.txt: Not a directory
+
+Sudan43:algebra alumno$ cd practica2
+
+-bash: cd: practica2: No such file or directory
+
+Sudan43:algebra alumno$ cd ..
+
+Sudan43:practica2 alumno$ ls
+
+algebra		nuevoDir	practica.txt
+
+Sudan43:practica2 alumno$ cd algebra/
+
+Sudan43:algebra alumno$ ls
+
+archivo.txt
+
+Sudan43:algebra alumno$ cat archivo.txt
+
+Sudan43:algebra alumno$ echo "Ancira Moya Jesus Domingo" >> archivo.txt
+
+Sudan43:algebra alumno$ cat archivo.txt
+
+Ancira Moya Jesus Domingo
+
+Sudan43:algebra alumno$ echo "317242818" >> archivo.txt
+
+Sudan43:algebra alumno$ cat archivo.txt 
+
+Ancira Moya Jesus Domingo
+
+317242818
+
+Sudan43:algebra alumno$ cd ..
+
+Sudan43:practica2 alumno$ ls
+
+algebra		nuevoDir	practica.txt
+
+Sudan43:practica2 alumno$ mkdir calculo
+
+Sudan43:practica2 alumno$ ls
+
+algebra		calculo		nuevoDir	practica.txt
+
+Sudan43:practica2 alumno$ cd calculo
+
+Sudan43:calculo alumno$ ls
+
+Sudan43:calculo alumno$ touch archivo.txt
+
+Sudan43:calculo alumno$ ls
+
+archivo.txt
+
+Sudan43:calculo alumno$ echo "Ancira Moya Jesus Domingo" >> archivo.txt
+
+Sudan43:calculo alumno$ cat archivo.txt
+
+Ancira Moya Jesus Domingo
+
+Sudan43:calculo alumno$ echo "317242818" >> archivo.txt
+
+Sudan43:calculo alumno$ cat archivo.txt
+
+Ancira Moya Jesus Domingo
+
+317242818
+
+Sudan43:calculo alumno$ cd ..
+
+Sudan43:practica2 alumno$ mkdir quimica
+
+Sudan43:practica2 alumno$ mkdir fdp
+
+Sudan43:practica2 alumno$ mkdir fisica
+
+Sudan43:practica2 alumno$ ls
+
+algebra		fdp		nuevoDir	quimica
+
+calculo		fisica		practica.txt
+
+Sudan43:practica2 alumno$ cd calculo
+
+Sudan43:calculo alumno$ cp archivo.txt ../quimica/
+
+Sudan43:calculo alumno$ cp archivo.txt ../fdp/
+
+Sudan43:calculo alumno$ cp archivo.txt ../fisica/
+
+Sudan43:calculo alumno$ cd quimica
+
+-bash: cd: quimica: No such file or directory
+
+Sudan43:calculo alumno$ cd ..
+
+Sudan43:practica2 alumno$ cd quimica
+
+Sudan43:quimica alumno$ cat archivo.txt
+
+Ancira Moya Jesus Domingo
+
+317242818
+
+Sudan43:quimica alumno$ cd ..
+
+Sudan43:practica2 alumno$ cd ..
+
+Sudan43:~ alumno$ echo "Adios mundo" 
+
+Adios mundo
+
+Sudan43:~ alumno$ 
