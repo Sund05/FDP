@@ -1,0 +1,29 @@
+.- Dado un precio, calcular su descuento considerando que si el precio es mayor a 100, el descuento será del 10%. De otro modo descontar solo un 2%.
+-Datos de entrada: Número real
+-Datos de salida: La impresión del descuento.
+-Algoritmo
+  1. Leer el precio
+  2. Si el precio es mayor a 100, lo multiplicas por 0.1 para obtener el descuento.
+  3. Si el precio no es mayor a 100, multiplicarlo por 0.02 para obtener el descuento.
+  4. Ya has obtenido los descuentos. Has terminado.
+
+2.- Un algoritmo que lea dos números y calcule su suma, su resta, su multiplicación y división.
+-Datos de entrada: Dos números reales
+-Datos de salida: Imprimir la suma, resta multiplicación y división de ambos números.
+-Algoritmo
+  1. Leer número 1 y número 2
+  2. Realizar número 1 + número 2.
+  3. Realizar número 1 - número 2.
+  4. Realizar número 1 * número 2.
+  5. Realizar número 1 / número 2.
+  6. Imprimir los resultados. Has terminado las operaciones.
+
+3.- Leer tres números que van a denotar una fecha de día, mes y año;  verificar si es una fecha valida.
+-Datos de entrada: Tres números enteros.
+-Datos de salida: Una fecha.
+-Algoritmo: 
+  1. Leer num1, num2 y num3.
+  2. Los num1 y num2 deben ser números de dos cifras, num 3 debe ser de cuatro cifras.
+  3. El num1 no puede ser mayor a 31, el num2 no puede ser mayor a 12.
+  4. Separar los números entre diagonales e imprimirlos.
+  5. Imprimir la fecha. Has terminado
